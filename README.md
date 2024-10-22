@@ -5,6 +5,15 @@ Code can be downloaded [here](https://github.com/julianquandt/jspsych-distributi
 
 An hosted example of how it looks like can be found [here](https://server.julianquandt.com/jspsych-distribution-builder/).
 
+# What is in the code?
+
+The code includes a jspsych fork, with the distribution-builder included as a plugin. As also some changes to the jspsych style.css file were made its easiest to just use this jspsych version instead of downloading it directly.
+The `index.html` file contains the actual experiment with all trial implementation etc. 
+The comments in the code explain what everything does and how to set the parameters for the distribution builder.
+The example stimuli are included in the `/stimuli` folder. You can add more stimuli here.
+The list of stimuli is included in the `.csv` files in the stimuli folder.
+Make sure that the lists always include an empty row at the end, as otherwise, the last sitmulus in the list will not be read. 
+
 # Getting things Running
 
 Once downloaded, you have multiple options to run the experiment:
