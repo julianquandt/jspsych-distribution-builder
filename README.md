@@ -13,7 +13,7 @@ Once downloaded, you have multiple options to run the experiment:
 
 3. Online (for actual running of the experiment)
 
-  - Use pavlovia (recommended). Create a free [Pavlovia](https://pavlovia.org/) account.
+  - Use pavlovia (recommended and free). Create a free [Pavlovia](https://pavlovia.org/) account.
     You now have 2 options:
     If you are unfamiliar with git and want to get started "quickly":
 
@@ -35,7 +35,7 @@ Once downloaded, you have multiple options to run the experiment:
      16. You will now be able to run the experiment from any web browser, by using the link provided by pavlovia in the upper right corner.
 
    If you are already familiar with git then just clone this repository, set the remote to a pavlovia gitlab repository, go to pavlovia.org (its different from where you currently are gitlab.pavlovia.org; the code part of pavlovia), click on dashboard > Experiments. Select your new experiment and change the status to "running".
-   For pavlovia, use is free, as you will not need any credits, as these are only used for saving data, which is not the case for jsPsych experiments, as the data can be saved remotely. As this is a whole other issue, an easy way to do this is by using my [JsPsych Datasaver tool](server.julianquandt.com/jspsych_datasaver).
+   For pavlovia, use is free, as you will not need any credits, as these are only used for saving data, which is not the case for jsPsych experiments, as the data can be saved remotely. As this is a whole other issue, an easy way to do this is by using my free [JsPsych Datasaver tool](server.julianquandt.com/jspsych_datasaver).
 
   - Use heroku (more difficult setup and costs money); instructions can be found [here](https://github.com/Tuuleh/jsPsychBackendStart), advantage is that it can also take care of the data backend (which costs even more money).
   - Use a personal webserver (most complicated setup if you don't have one / know how to already). 
