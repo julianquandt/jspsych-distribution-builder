@@ -37,11 +37,11 @@ Once downloaded, you have multiple options to run the experiment:
      16. You will now be able to run the experiment from any web browser, by using the link provided by pavlovia in the upper right corner.
 
    If you are already familiar with git then just clone this repository, set the remote to a pavlovia gitlab repository, go to pavlovia.org (its different from where you currently are gitlab.pavlovia.org; the code part of pavlovia), click on dashboard > Experiments. Select your new experiment and change the status to "running".
-   For pavlovia, use is free, as you will not need any credits, as these are only used for saving data, which is not the case for jsPsych experiments, as the data can be saved remotely. As this is a whole other issue, an easy way to do this is by using my free [JsPsych Datasaver tool](server.julianquandt.com/jspsych_datasaver).
+   For pavlovia, use is free, as you will not need any credits, as these are only used for saving data, which is not the case for jsPsych experiments, as the data can be saved remotely. As this is a whole other issue, an easy way to do this is by using my free [JsPsych Datasaver tool](https://server.julianquandt.com/jspsych_datasaver).
 
   - Use heroku (more difficult setup and costs money); instructions can be found [here](https://github.com/Tuuleh/jsPsychBackendStart), advantage is that it can also take care of the data backend (which costs even more money).
   - Use a personal webserver (most complicated setup if you don't have one / know how to already).
 
 # Saving Data
 
-As jsPsych is javascript, which by definition is executed client-side (i.e. on the computer of the participants), saving data requires a data backend server. Here I included the implementation to use [JsPsych Datasaver tool](server.julianquandt.com/jspsych_datasaver). Feel free to contact me and I will provide you access to it so you can use it to save your data. 
+As jsPsych is javascript, which by definition is executed client-side (i.e. on the computer of the participants), saving data requires a data backend server. Here I included the implementation to use [JsPsych Datasaver tool](https://server.julianquandt.com/jspsych_datasaver). Feel free to contact me and I will provide you access to it so you can use it to save your data. Alternatively consider hosting on heroku (which costs money) or running your own webserver, or buy pavlovia credits to save the data on pavlovia itself (e.g. using [this](https://gitlab.pavlovia.org/tpronk/jsPsych_SimpleReactionTime/tree/master).
