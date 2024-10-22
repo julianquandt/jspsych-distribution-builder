@@ -35,6 +35,7 @@ Once downloaded, you have multiple options to run the experiment:
      16. You will now be able to run the experiment from any web browser, by using the link provided by pavlovia in the upper right corner.
    
    If you are familiar with git:
+   
       1. Clone this repository, set the remote to a pavlovia gitlab repository.
       2. Go to pavlovia.org (its different from where you currently are gitlab.pavlovia.org; the code part of pavlovia).
       3. Click on dashboard > Experiments. Select your new experiment and change the status to "running".
