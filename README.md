@@ -30,22 +30,27 @@ Once downloaded, you have multiple options to run the experiment:
     You now have 2 options:
     If you are unfamiliar with git and want to get started "quickly":
 
-     1. Create a free account on github.com
-     2. Download the [github desktop client](https://desktop.github.com/download/) and install it.
-     3. Login in with your github account.
-     4. Click on "New Repository" and select the folder where you have the files for your experiment (do NOT change the name).
-     5. Create the repository and click on "Publish".
-     6. Click on "View on github" (make sure you are logged in here, its important in a second).
-     7. Copy the link in the url (you will need it in a second).
-     8. Login to Pavlovia.
-     9. Click on "New Project" > Import Project. Click on the blue "Personal Access Token" text.
-     10. On the newly opened link on github, click on "Generate New Token".
-     11. Give it a name (e.g. pavlovia) and set the expiry date (you can also use "no expiration" if you want to avoid having to do this process again). Check the permission (e.g. whether it should be only for public repos or also private; make sure it matches the repository visibility of the project you want to import) and click on "Generate Token". 
-     12. Copy the generated token to pavlovia (on the page that sent you to the token creation) and click on "authenticate".
-     13. You will see a list of your repositories. Click import next to the one you want to use.
-     14. Go to pavlovia.org (its different from where you currently are gitlab.pavlovia.org; the code part of pavlovia).
-     15. Click on dashboard > Experiments. Select your new experiment and change the status to "running".
-     16. You will now be able to run the experiment from any web browser, by using the link provided by pavlovia in the upper right corner.
+     1. Create a free palvovia account (it should work with any university e-mail for free).
+     3. Download the [github desktop client](https://desktop.github.com/download/) and install it (There is no need to create or login with a github account).
+     5. Login at https://gitlab.pavlovia.org (which is the code repository part of pavlovia).
+     6. Click on the `New Project` button on the upper right.
+     7. Click on `Create Blank Project`
+     8. Enter a project name (this name will also be the link to your study, so make sure it is something nice) and click `Create Project`.
+     9. On the new page that opened, ignore everything and instead click on your profile in the very upper right corner, and go to `Settings`.
+     10. In the menu on the left, click on `Access Tokens`.
+     11. Enter a name in Name field (e.g. github-client), leave the date field empty as it is, and check all the permission boxes under it. Then click on `Create Personal Access Token`.
+     12. It will create a token that you can see on the top of the page (not the feed one at the bottom of the page). You will only be able to see this token ONCE so **copy it somewhere, you will need it in a second.**
+     13. Go back to the github-client that you downloaded and installed earlier.
+     14. Click on `Clone Repository from the Internet...` and select `URL` in the menu on the top.
+     15. On gitlab.pavlovia.com, click on `Projects / Your Projects`, and then on the project you just created.
+     16. Copy the URL of the page to the URL field in the github-desktop client. and select a `Local path` for where you want to work on your experiment on your local computer, then click `Clone`.
+     17. It will ask you for a username and e-mail. As a username, enter your e-mail that you registered on pavlovia with. As the password, use the Access token that you created earlier (it will not work with your password to the website).
+     18. Unzip the distribuin builder that you downloaded from this website, and copy **everything** in the folder that also contains the `index.html` file into the folder you just indicated in the github-client program.
+     19. Now go back to github client and you will see that a lot of stuff is indicated as changes. You now want to commit these changes. To do this, first enter something in the `summary` field in the lower left corner (e.g. "add files") and then click on `commit to main`. This will take a while to run (up to a few minutes). Afterwards, you will see a blue button in called `publish branch`. Click it and your experiment will be uploaded to pavlovia.
+     20. Go to https://pavlovia.org (its different from where you currently are gitlab.pavlovia.org; the code part of pavlovia) and click on `dashboard` > `Experiments`. Select your new experiment and change the status to `Running`.
+     22. You will now be able to run the experiment from any web browser, by using the link provided by pavlovia in the upper right corner of the page.
+
+Now you can make all changes to your experiment by just adding stimuli, and changing whatever on your local computer (I recommend [vscode](https://code.visualstudio.com/) for the development). To publish these changes, the only thing you need to do is to go to github client. It will have automatically detected all changes you made. Then you again click on `commit changes` and then on `publish branch` and your changes will immediately be live on pavlovia so you can test them. A note to prevent frustration: Web browsers cache files of websites that you recently visited. This means that if you already have a page open and simply refresh, the new changes might not be there. To reload a page without using cached data press `Ctrl + Shift + R` on Firefox or `Ctrl + F5` on Chrome / Edge, `CMD + OPTION + R` on Mac + Safari. 
 
    If you are already familiar with git then just clone this repository, set the remote to a pavlovia gitlab repository, go to pavlovia.org (its different from where you currently are gitlab.pavlovia.org; the code part of pavlovia), click on dashboard > Experiments. Select your new experiment and change the status to "running".
    For pavlovia, use is free, as you will not need any credits, as these are only used for saving data, which is not the case for jsPsych experiments, as the data can be saved remotely. As this is a whole other issue, an easy way to do this is by using my free [JsPsych Datasaver tool](https://server.julianquandt.com/jspsych_datasaver).
