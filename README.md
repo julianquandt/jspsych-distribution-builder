@@ -9,7 +9,7 @@ Once downloaded, you have multiple options to run the experiment:
 
 1. Locally (for development and testing only).
 
-   - Windows: Use an app such as [xammp](https://www.apachefriends.org/) to create a lamp server. Open the application and click the "start" button next to apache. Then click on "Explorer". Unzip the folder you downloaded here and copy it into the htdocs folder in xampp. Once you have copied it, you can access your app by entering localhost/jsPsych-distribution-builder in your web browser.
+   - Windows: Use an app such as [xammp](https://www.apachefriends.org/) to create a lamp server. Open the application and click the "start" button next to apache. Then click on "Explorer". Unzip the folder you downloaded here and copy it into the htdocs folder in xampp. Once you have copied it, you can access your app by visiting `localhost/jsPsych-distribution-builder` in your web browser. Note that this is only for testing, and you will only be able to run it on your own computer.
    - Mac should work exactly as windows but I dont have macOS so I cannot test it.
    - Linux: If you use linux I assume you know how to set up an apache2 server and copy the app.
 
