@@ -3,6 +3,8 @@ A minimal implementation of the distribution builder plugin for JsPsych with exa
 
 Code can be downloaded [here](https://github.com/julianquandt/jspsych-distribution-builder/archive/refs/heads/main.zip). 
 
+An hosted example of how it looks like can be found [here](https://server.julianquandt.com/jspsych-distribution-builder/).
+
 # Getting things Running
 
 Once downloaded, you have multiple options to run the experiment:
