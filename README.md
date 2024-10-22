@@ -44,4 +44,4 @@ Once downloaded, you have multiple options to run the experiment:
 
 # Saving Data
 
-As jsPsych is javascript, which by definition is executed client-side (i.e. on the computer of the participants), saving data requires some extra work. Here I included the implementation to use [JsPsych Datasaver tool](server.julianquandt.com/jspsych_datasaver). Feel free to contact me and I will provide you access to it so you can use it to save your data. 
+As jsPsych is javascript, which by definition is executed client-side (i.e. on the computer of the participants), saving data requires a data backend server. Here I included the implementation to use [JsPsych Datasaver tool](server.julianquandt.com/jspsych_datasaver). Feel free to contact me and I will provide you access to it so you can use it to save your data. 
