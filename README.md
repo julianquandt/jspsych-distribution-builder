@@ -13,6 +13,19 @@ Once downloaded, you have multiple options to run the experiment:
 
 3. Online (for actual running of the experiment)
 
-  - Use pavlovia (recommended). Create a free [Pavlovia](https://pavlovia.org/) account. Go on Create project,
+  - Use pavlovia (recommended). Create a free [Pavlovia](https://pavlovia.org/) account.
+     1. Create a free account on github.com
+     2. Download the [github desktop client](https://desktop.github.com/download/) and install it.
+     3. Login in with your github account.
+     4. Click on "New Repository" and select the folder where you have the files for your experiment (do NOT change the name).
+     5. Create the repository and click on "Publish".
+     6. Click on "View on github" (make sure you are logged in here, its important in a second).
+     7. Copy the link in the url (you will need it in a second).
+     8. Login to Pavlovia.
+     9. Click on "New Project" > Import Project. Click on the blue "Personal Access Token" text.
+     10. On the newly opened link on github, click on "Generate New Token".
+     11. Give it a name (e.g. pavlovia) and set the expiry date (you can also use "no expiration" if you want to avoid having to do this process again) and click on "Generate Token"
+     12. Copy the generated token to pavlovia (on the page that sent you to the token creation) and click on "authenticate".
+     13. 
   - Use heroku (more difficult setup and costs money); instructions can be found [here](https://github.com/Tuuleh/jsPsychBackendStart), advantage is that it can also take care of the data backend (which costs even more money).
   - Use a personal webserver (most complicated setup if you don't have one / know how to already). 
