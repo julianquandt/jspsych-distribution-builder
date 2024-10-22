@@ -3,6 +3,8 @@ A minimal implementation of the distribution builder plugin for JsPsych with exa
 
 Code can be downloaded [here](https://github.com/julianquandt/jspsych-distribution-builder/archive/refs/heads/main.zip). 
 
+# Getting things Running
+
 Once downloaded, you have multiple options to run the experiment:
 
 1. Locally (for development and testing only).
@@ -38,4 +40,8 @@ Once downloaded, you have multiple options to run the experiment:
    For pavlovia, use is free, as you will not need any credits, as these are only used for saving data, which is not the case for jsPsych experiments, as the data can be saved remotely. As this is a whole other issue, an easy way to do this is by using my free [JsPsych Datasaver tool](server.julianquandt.com/jspsych_datasaver).
 
   - Use heroku (more difficult setup and costs money); instructions can be found [here](https://github.com/Tuuleh/jsPsychBackendStart), advantage is that it can also take care of the data backend (which costs even more money).
-  - Use a personal webserver (most complicated setup if you don't have one / know how to already). 
+  - Use a personal webserver (most complicated setup if you don't have one / know how to already).
+
+# Saving Data
+
+As jsPsych is javascript, which by definition is executed client-side (i.e. on the computer of the participants), saving data requires some extra work. Here I included the implementation to use [JsPsych Datasaver tool](server.julianquandt.com/jspsych_datasaver). Feel free to contact me and I will provide you access to it so you can use it to save your data. 
